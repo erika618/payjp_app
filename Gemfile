@@ -33,7 +33,7 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'rspec-rails'
   gem 'factory_bot_rails'
-  gem 'faker'  
+  gem 'faker'
 end
 
 group :development do
@@ -46,7 +46,7 @@ group :development do
   gem 'rubocop', require: false
   gem 'rails_best_practices', require: false
   gem 'brakeman', require: false
-  gem 'rails-erd'  
+  gem 'rails-erd'
 end
 
 group :test do
