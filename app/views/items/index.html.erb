@@ -1,7 +1,7 @@
 <%# マイページにカレンとユーザーの情報を表示させるため、引数に持たせる %>
 <%= link_to 'マイページへ行く', user_path(current_user) %>
 <div class="content">
-  <% @items.each do |item| %> 
+  <% @items.each do |item| %>
     <p>商品名：<%= item.name %></p>
     <p>値段：<%= item.price %>円</p>
     <%= link_to '購入する'%>
